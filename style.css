@@ -1,0 +1,49 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #17252A;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #3AAFA9;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.currency-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.currency-container select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.currency-container input{
+    border: 0;
+    background-color: transparent;
+    font-size: 25px;
+    text-align: right;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.exchange-rate{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+select:focus, input:focus{
+    outline: 0;
+}
